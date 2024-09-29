@@ -738,53 +738,8 @@ class _Login_MainPageState extends State<Login_MainPage> {
                                             ),
                                           )))),
                               SizedBox(height: 30),
-                              /* 소셜로그인 업데이트 되면 주석처리 해제하면 됨. */
-                              // Text(
-                              //   'OR', // TextField의 hintText 대신 텍스트 사용
-                              //   textAlign: TextAlign.center,
-                              //   style: GoogleFonts.lemon(
-                              //     fontSize: 14,
-                              //     color: Colors.white,
-                              //   ),
-                              // ),
-                              // Text(
-                              //   'Sign up with', // TextField의 hintText 대신 텍스트 사용
-                              //   textAlign: TextAlign.center,
-                              //   style: GoogleFonts.lemon(
-                              //     fontSize: 20,
-                              //     color: Colors.white,
-                              //   ),
-                              // ),
-
                               SizedBox(height: 20),
-                              /* 소셜로그인 업데이트 되면 주석처리 해제하면 됨. */
-                              // Row(
-                              //   mainAxisAlignment: MainAxisAlignment.center,
-                              //   children: [
-                              //     InkWell(
-                              //       child:
-                              //           Image.asset("images/Icon_Google.png"),
-                              //       onTap: () {
-                              //         print("구글 회원가입 구현");
-                              //       },
-                              //     ),
-                              //     // SizedBox(width: 60),
-                              //     // InkWell(
-                              //     //   child:
-                              //     //       Image.asset("images/Icon_Facebook.png"),
-                              //     //   onTap: () {
-                              //     //     print("페이스북 회원가입 구현");
-                              //     //   },
-                              //     // ),
-                              //     // SizedBox(width: 60),
-                              //     // InkWell(
-                              //     //   child: Image.asset("images/Icon_Apple.png"),
-                              //     //   onTap: () {
-                              //     //     print("애플 회원가입 구현");
-                              //     //   },
-                              //     // ),
-                              //   ],
-                              // ),
+
                             ],
                           ),
                         )),
