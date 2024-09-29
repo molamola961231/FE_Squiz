@@ -511,53 +511,6 @@ class _Login_MainPageState extends State<Login_MainPage> {
                                             ),
                                           )))),
                               SizedBox(height: 30),
-                              /* 소셜 로그인 생기면 주석처리 해제 */
-                              // Text(
-                              //   'OR', // TextField의 hintText 대신 텍스트 사용
-                              //   textAlign: TextAlign.center,
-                              //   style: GoogleFonts.lemon(
-                              //     fontSize: 14,
-                              //     color: Colors.white,
-                              //   ),
-                              // ),
-                              // Text(
-                              //   'Sign in with', // TextField의 hintText 대신 텍스트 사용
-                              //   textAlign: TextAlign.center,
-                              //   style: GoogleFonts.lemon(
-                              //     fontSize: 20,
-                              //     color: Colors.white,
-                              //   ),
-                              // ),
-
-                              // SizedBox(height: 20),
-
-                              // Row(
-                              //   mainAxisAlignment: MainAxisAlignment.center,
-                              //   children: [
-                              //     InkWell(
-                              //       child:
-                              //           Image.asset("images/Icon_Google.png"),
-                              //       onTap: () {
-                              //         print("구글 로그인 구현");
-                              //       },
-                              //     ),
-                              //     // SizedBox(width: 60),
-                              //     // InkWell(
-                              //     //   child:
-                              //     //       Image.asset("images/Icon_Facebook.png"),
-                              //     //   onTap: () {
-                              //     //     print("페이스북 로그인 구현");
-                              //     //   },
-                              //     // ),
-                              //     // SizedBox(width: 60),
-                              //     // InkWell(
-                              //     //   child: Image.asset("images/Icon_Apple.png"),
-                              //     //   onTap: () {
-                              //     //     print("애플 로그인 구현");
-                              //     //   },
-                              //     // ),
-                              //   ],
-                              // ),
                             ],
                           ),
                         )),
