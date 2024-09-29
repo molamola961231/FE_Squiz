@@ -259,21 +259,6 @@ class _SettingsPageState extends State<SettingsPage> {
             ListTile(
               title: Text('계정 퀴즈 데이터 서버 백업 및 복원 기능 (유료기능)'),
             ),
-            // Container(
-            //   width: double.infinity,
-            //   height: 60,
-            //   child: Row(
-            //     children: [
-            //       SizedBox(width: 16),
-            //       Text('Delete All database'),
-            //       Spacer(),
-            //       IconButton(
-            //         icon: Icon(Icons.delete, color: Color(0xFF686868)),
-            //         onPressed: () => _showDeleteDialog(context), //() => () {},
-            //       ),
-            //     ],
-            //   ),
-            // )
           ],
         ),
         SizedBox(height: 30),
