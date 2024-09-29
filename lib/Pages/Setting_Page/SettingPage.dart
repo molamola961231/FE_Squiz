@@ -73,51 +73,6 @@ class _SettingsPageState extends State<SettingsPage> {
     }
   }
 
-  // Future<void> _showDeleteDialog(BuildContext context) async {
-  //   showCupertinoDialog(
-  //     context: context,
-  //     builder: (context) => CupertinoAlertDialog(
-  //       title: Text('Delete Database'),
-  //       content: Text('Are you sure you want to delete all database files?'),
-  //       actions: [
-  //         CupertinoDialogAction(
-  //           child: Text('Cancel'),
-  //           onPressed: () => Navigator.of(context).pop(),
-  //         ),
-  //         CupertinoDialogAction(
-  //           child: Text('Delete'),
-  //           isDestructiveAction: true,
-  //           onPressed: () async {
-  //             await _deleteDatabaseFiles();
-  //             Navigator.of(context).pop();
-  //           },
-  //         ),
-  //       ],
-  //     ),
-  //   );
-  // }
-
-  // Future<void> _deleteDatabaseFiles() async {
-  //   try {
-  //     var databasesPath = await getDatabasesPath();
-  //     Directory directory = Directory(databasesPath);
-  //     var files = directory.listSync();
-
-  //     for (var file in files) {
-  //       if (file is File &&
-  //           (basename(file.path).endsWith('.pdf.db') ||
-  //               basename(file.path).startsWith('MEMO_'))) {
-  //         await file.delete();
-  //         print('Deleted database file: ${file.path}');
-  //       }
-  //     }
-
-  //     print('Database files deletion completed.');
-  //   } catch (e) {
-  //     print('Error deleting database files: $e');
-  //   }
-  // }
-
   @override
   Widget build(BuildContext context) {
     return ListView(
