@@ -575,44 +575,7 @@ class __BookmarkButtonState extends State<_BookmarkButton> {
       print('Failed to toggle bookmark: ${response.statusCode}');
     }
   }
-  // @override
-  // Widget build(BuildContext context) {
-  //   final BookmarkController bookmarkController = Get.find();
-  //   final AccountController accountController = Get.find(); // AccountController 가져오기
 
-  //   return Positioned(
-  //     top: 15,
-  //     right: 2,
-  //     child: Obx(() {
-  //       bool isBookmarked = bookmarkController.isBookmarked(widget.quizName);
-  //       return IconButton(
-  //         icon: Image.asset(
-  //           isBookmarked
-  //               ? 'images/icon_Bookmark_filled.png'
-  //               : 'images/icon_Bookmark.png',
-  //           width: 30,
-  //           height: 30,
-  //         ),
-  //         onPressed: () {
-  //           setState(() {
-  //             isBookmarked = !isBookmarked;
-  //             if (!isBookmarked) {
-  //               print('${widget.quizName} is added to your bookmark');
-  //               bookmarkController.removeBookmark(widget.quizName);
-  //               /* 여기서 북마크된 퀴즈명&코드 유저 계정에 추가하는 코드 추가 */
-  //             } else if (isBookmarked) {
-  //               print('${widget.quizName} is now removed from your bookmark');
-  //               bookmarkController.addBookmark(
-  //                   widget.quizName, widget.BeforeUpdatelikes);
-
-  //               /* 여기서 북마크된 퀴즈명&코드 유저 계정에서 제거하는 코드 추가 */
-  //             }
-  //           });
-  //         },
-  //       );
-  //     }),
-  //   );
-  // }
   @override
   Widget build(BuildContext context) {
     final BookmarkController bookmarkController = Get.find();
