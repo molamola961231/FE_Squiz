@@ -1,0 +1,33 @@
+import 'package:flutter/material.dart';
+
+class CustomBottomNavBar extends StatelessWidget {
+  final int selectedIndex;
+ 
+  final Function(int) onItemTapped;
+
+  const CustomBottomNavBar({
+    Key? key,
+    required this.selectedIndex,
+    required this.onItemTapped,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return BottomNavigationBar(
+ 
+      currentIndex: selectedIndex,
+      onTap: onItemTapped,
+      selectedItemColor: Colors.white,
+      items: const [
+        BottomNavigationBarItem(icon: Image(image: AssetImage('images/Icon_Study.png'), width: 40, height: 40, color: Colors.yellow), 
+          label: 'Study', backgroundColor: Color(0xFF6BA16A),),
+        BottomNavigationBarItem(icon: Image(image: AssetImage('images/Icon_Squiz.png'), width: 40, height: 40, color: Colors.yellow), 
+          label: 'SQuiz', backgroundColor:Color(0xFF6BA16A),),
+        BottomNavigationBarItem(icon: Image(image: AssetImage('images/Icon_MyInfo.png'), width: 40, height: 40, color: Colors.yellow), 
+          label: 'Social', backgroundColor: Color(0xFF6BA16A),),
+        BottomNavigationBarItem(icon: Image(image: AssetImage('images/Icon_Settings.png'), width: 40, height: 40, color: Colors.yellow), 
+          label: 'Setting', backgroundColor: Color(0xFF6BA16A),),
+      ],
+    );
+  }
+}
